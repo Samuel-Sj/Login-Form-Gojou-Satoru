@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(imagens/Gojou.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Login {
+    width: 50vh;
+    border-radius: 5%;
+    font-size: 12px;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.Login h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: hsla(184, 94%, 52%, 0.925);
+    background: transparent;
+    backdrop-filter: blur(20px)
+}
+
+.Usuário, .Senha {
+    position: relative; 
+    margin: 10px 0; 
+}
+
+.Usuário input, .Senha input {
+    width: 100%; 
+    height: 40px; 
+    border: 2px  hsla(184, 94%, 52%, 0.8); 
+    border-radius: 5px; 
+    padding: 0 40px; 
+    font-size: 16px; 
+}
+
+.Usuário i, .Senha i {
+    position: absolute; 
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: hsla(183, 90%, 15%, 0.925);
+}
+
+.remember-forgot {
+    display: flex; 
+    justify-content: space-between; 
+    color: hsla(184, 94%, 52%, 0.925);
+    font-size: 14px;
+    margin: 10px 0; 
+}
+
+.remember-forgot a {
+    color: hsl(221, 91%, 14%);
+}
+
+.Registro p {
+    color: hsla(184, 94%, 52%, 0.925);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px; 
+}
+
+.Registro a {
+    color: white;
+}
+
+.buttons {
+    width: 100%; 
+    height: 50px; 
+    border-radius: 25px; 
+    background-color: hsl(208, 47%, 77%);
+    color: hsl(221, 91%, 14%);
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+.buttons:hover {
+    background-color: hsl(208, 47%, 67%);
+}
